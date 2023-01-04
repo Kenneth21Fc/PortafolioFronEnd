@@ -1,1 +1,108 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+    box-sizing: border-box;
+     font-family: 'Open Sans';   
+}
+body{
+    background-color:#4d6ab9 ;
+    color: #fff;
+} /*redes*/
+:root{
+    --dev: #A084CA;
+    --fullstack: #BFACE0;
+    --kenneth: #256D85;
+    --villegas: #256D85;
+    /* colores de redes*/
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+}
+.redes{
+display: flex;
+height: 10vh;
+background: #585858;
+}
+.redes ul li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.redes ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow:  0 3px 5px 0px rgba (0,0,0, .2);
+    transition: .2s;
+}
+.redes ul:hover a{
+    filter: blur(2px);
+}
+.redes ul li :hover{ 
+    transform:  translateY(-3) scale(1.05);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
+    filter: none;
+}
+.redes ul li .facebook:hover{ 
+    background: var(--facebook);
+}
+.redes ul li .instagram:hover{ 
+    background: var(--instagram);
+}
+.redes ul li .twitter:hover{ 
+    background: var(--twitter);
+}
+/*foto -------------------------------------------------------*/
+.imagenportada{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #585858;    
+}
+
+img{
+    padding-left: 15px;
+    width: 187px;
+    height: 210px;
+    
+
+}
+.container__nombre {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #585858;
+}
+/* conocimientos ---------------------------------------------------*/
+
+.container3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background: #585858;
+}
+.container3 div ul{
+    list-style: none;
+    padding: 10px;    
+}
+/* Mis Proyestos ------------------------------------------------*/
+
+.container4{
+    background: #585858;
+    padding: 10px;
+
+}
+.container4__proyectos-p{
+    padding-left: 15px;
+}
+.container4__proyectos{
+    padding-left: 15px;
+}
+
+ 
